@@ -32,7 +32,7 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 8
-PLUGIN_PATHS = ['./pelican-plugins/assets', './pelican-plugins/liquid_tags', './pelican-plugins/render_math']
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['assets', 'liquid_tags.notebook', 'pelican_dynamic', 'render_math']
 
 # Uncomment following line if you want document-relative URLs when developing
