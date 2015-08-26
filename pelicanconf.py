@@ -35,5 +35,8 @@ DEFAULT_PAGINATION = 8
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['assets', 'liquid_tags.notebook', 'pelican_dynamic', 'render_math']
 
+GOOGLE_ANALYTICS = 'UA-66840105-1'
+DOMAIN = 'sentimentalarse.com'
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
