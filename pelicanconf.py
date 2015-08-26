@@ -12,7 +12,7 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = u'en'
 
-THEME = '/Users/vmandal/PersonalProjects/SentimentalArse.com/pelican-themes/greda-theme/'
+THEME = './pelican-themes/greda-theme/'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
