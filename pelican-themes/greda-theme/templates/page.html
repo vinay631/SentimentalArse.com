@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}{{ page.title }} | {{ SITENAME }}{% endblock %}
+{% block metadesc %}{{ page.description|e }}{% endblock %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+
+  <h1 class="article-title"><a href="/{{ page.url }}" title="Permalink to {{ page.title }}">{{page.title}}</a></h1>
+
+  <div class="article-content">
+    {{ page.content }}
+  </div>
+  <hr class="large">
+
+{% endblock %}
