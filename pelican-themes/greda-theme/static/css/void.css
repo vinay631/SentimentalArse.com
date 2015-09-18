@@ -81,6 +81,7 @@ nav {
 	float: left;
 	line-height: 50px;
 	margin-top: 7px;
+        margin-left: 4px;
 /* ^^^^^
 Because vertically centering things with CSS is a fucking nightmare,
 I'm going to do this the shitty hack way and just specify a margin-top.
